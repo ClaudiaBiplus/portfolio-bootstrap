@@ -1,24 +1,4 @@
 @font-face {
-    font-family: CaviarDreams;
-    src: url(../fonts/CaviarDreams/CaviarDreams.ttf);
-}
-
-@font-face {
-    font-family: Coolvetica;
-    src: url(../fonts/coolvetica/coolvetica\ rg.otf);
-}
-
-@font-face {
-    font-family: Gilgan;
-    src: url(../fonts/gilgan/Gilgan.otf);
-}
-
-@font-face {
-    font-family: Neowriter;
-    src: url(../fonts/neo_writer/Neo-Writer.ttf);
-}
-
-@font-face {
     font-family: Nixieone;
     src: url(../fonts/nixie_one/NixieOne.ttf);
 }
@@ -43,6 +23,10 @@
 
 #avatar {
     max-width: 300px;
+}
+
+.jumbotron {
+    background-color: #e5decf;
 }
 
 /* .text-wrapper {
