@@ -1,0 +1,22 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(../fonts/coolvetica/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: Gilgan;
+    src: url(../fonts/gilgan/Gilgan.otf);
+}
+
+.navbar-brand {
+    font-family: Coolvetica;
+}
+
+.nav-item {
+    font-family: Coolvetica;
+}
