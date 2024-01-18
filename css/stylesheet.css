@@ -56,30 +56,6 @@ footer div p {
     font-size: 0.8em;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa-github {
-    background: #55ACEE;
-    color: white;
-}
-
-/* imgs are b&w when not hovered on
-#projects img {
-    filter: grayscale(100%);
-}
-
-.card:hover #projects img {
-    filter: none;
-} */
-
 a {
     color: black;
 }
@@ -88,6 +64,30 @@ a:hover {
     font-style: italic;
     color: black;
     text-decoration: none;
-    font-size: 110%;
 }
+
+.fa {
+    font-size: 30px;
+    background-color: #e5decf;
+    width: 40px;
+    height: 40px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    box-shadow: 2px 2px 5px grey;
+    font-style: normal;
+}
+
+/* imgs are b&w when not hovered on (not working)
+#projects img {
+    filter: grayscale(100%);
+}
+
+.card:hover #projects img {
+    filter: none;
+} */
 
