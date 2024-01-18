@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="navbar-brand">
           <img src="images/LittleIcon.png" width="30" height="30" class="d-inline-block align-top" alt="">
           Claudia Filannino
@@ -100,34 +102,40 @@
     </div>
 
 
-    <!-- CONTACT  -->
-    <div class="container-fluid">
+    <!-- FOOTER - CONTACT  -->
+    <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-3">
                 <h2 id="contacts">Contacts</h2>
             </div>
             <div class="col-9">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="https://www.linkedin.com/in/claudia-filannino/">Linkedin</a></li>
-                    <li class="list-group-item"><a href="mailto: claudia@creativehorizons.fk?subject=Not%20a%20real%20email%20address?body=The%20email%20you%20are%20trying%20to%20send%20this%20to%20does%20not%20exist">Email</a></li>
-                    <li class="list-group-item">
-                        <p id="address">Studio Address</p>
-                        <p>Creative Horizons Studio<br>
+                <p id="address">Studio Address</p>
+                    <p>Creative Horizons Studio<br>
                         56 Innovation Close<br>
                         London, UK</p>
-                    </li>
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-8 align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">© 2024 Claudia</span>
+        </div>
+        <div class="col">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+        </div>
+        <div class="col">
+            <p id="address">Studio Address</p>
+                <p>Creative Horizons Studio<br>
+                    56 Innovation Close<br>
+                    London, UK</p>
+            </ul>
+        </div>
+    </footer>
 
-    <!-- FOOTER  -->
-    <!-- All hyperlinks should have a hover effect.
-    All buttons should display a box shadow upon hover. -->
-
-
-      <!-- for bootstrap interactivity -->
-      <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- for bootstrap interactivity -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
