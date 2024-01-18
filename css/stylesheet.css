@@ -14,9 +14,22 @@
 }
 
 .navbar-brand {
-    font-family: Coolvetica;
+    /* find another font */
+    font-family: Coolvetica; 
 }
 
 .nav-item {
     font-family: Coolvetica;
+}
+
+p {
+    font-family: Gilgan;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+#avatar {
+    max-width: 300px;
 }
