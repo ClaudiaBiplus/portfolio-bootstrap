@@ -2,6 +2,8 @@
 
 This repository contains the source code for my portfolio website. The portfolio showcases projects and skills.
 
+![Screenshot](images/readmescreenshot.png)
+
 ## Overview
 
 The website is built using HTML5, CSS3, and Bootstrap. It utilizes Bootstrap for responsive design and Font Awesome for icons. The layout is divided into several sections, including a hero section, projects showcase, skills summary, and a footer with contact information and social media links.
